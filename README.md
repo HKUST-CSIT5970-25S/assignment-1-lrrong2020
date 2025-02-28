@@ -654,8 +654,8 @@
 
     | Connection                | TCP b/w (Mbps) | RTT (ms) |
     | ------------------------- | -------------- | -------- |
-    | N. Virginia - Oregon      | 32.1           | 62.9     |
-    | N. Virginia - N. Virginia | 3780           | 0.249    |
-    | Oregon - Oregon           | 920            | 1.072    |
+    | N. Virginia - Oregon      | 32.7           | 62.4     |
+    | N. Virginia - N. Virginia | 2600           | 0.556    |
+    | Oregon - Oregon           | 4740           | 0.191    |
 
     > Region: US East (N. Virginia), US West (Oregon). Use `Ubuntu Server 22.04 LTS (HVM)` as AMI. All instances are `c5.large`. Note: Use public IP address when using iPerf within the same region.
